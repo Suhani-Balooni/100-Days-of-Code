@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+printf("Enter size: ");
+int n,x,i,index=-1;
+scanf("%d",&n);
+
+int arr[n];
+printf("Enter sorted array: ");
+for(i=0;i<n;i++) scanf("%d",&arr[i]);
+
+printf("Enter x: ");
+scanf("%d",&x);
+
+for(i=0;i<n;i++) {
+if(arr[i]>=x) { index=i; break; }
+}
+
+printf("Ceil index: %d\n",index);
+return 0;
+}
+
