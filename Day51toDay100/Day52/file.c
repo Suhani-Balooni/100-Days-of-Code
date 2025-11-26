@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-printf("Enter size: ");
 int n,x,i,index=-1;
+printf("Enter size: ");
 scanf("%d",&n);
 
 int arr[n];
